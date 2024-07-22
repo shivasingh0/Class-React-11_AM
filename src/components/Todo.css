@@ -20,3 +20,7 @@
     color: aliceblue;
     margin-top: 15px;
 }
+.list{
+    font-size: 20px;
+    list-style: none;
+}
