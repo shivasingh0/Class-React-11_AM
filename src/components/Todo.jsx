@@ -9,7 +9,6 @@ function Todo() {
     setTodo(e.target.value);
   }
 
-
   function handleAdd() {
     setTodoList([...todoList, todo])  // destructure the array values
   }
