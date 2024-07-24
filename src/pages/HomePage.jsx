@@ -35,6 +35,12 @@ const HomePage = () => {
       >
         Todo
       </Link>
+      <Link
+        to={"/form"}
+        style={{ color: "white", textAlign: "center", fontSize: "20px" }}
+      >
+        Form
+      </Link>
     </div>
   );
 };

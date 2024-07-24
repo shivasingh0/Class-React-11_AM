@@ -2,12 +2,18 @@ import React from "react";
 import Props from "../components/props/Props";
 
 const ProPage = () => {
+
+  function clickme() {
+    alert("Hello")
+  }
+
   return (
     <>
       <Props
         name="sumit"
         email="sumit@gmail.com"
         other={{ address: "manpur", number: 6767 }}
+        fun={clickme}
       />
       <Props
         name="yogendra"

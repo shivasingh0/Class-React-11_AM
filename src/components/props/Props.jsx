@@ -12,6 +12,8 @@ const Props = (parameter) => {
       <h1>{parameter.email}</h1>
       <h1>{parameter.other.address}</h1>
       <h1>{parameter.other. number}</h1>
+
+      <button onClick={parameter.fun}>Click me</button>
     </div>
   );
 };

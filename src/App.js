@@ -4,6 +4,7 @@ import UpdateStatePage from './pages/UpdateState.jsx';
 import HomePage from './pages/HomePage.jsx';
 import ProPage from './pages/ProPage.jsx'
 import TodaPage from './pages/TodaPage.jsx'
+import Form from './pages/Form.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/prop' element={<ProPage/>} />
           <Route path='/update-state' element={<UpdateStatePage/>} />
           <Route path='/todo' element={<TodaPage/>} />
+          <Route path='/form' element={<Form/>} />
         </Routes>
     </BrowserRouter>
   );
