@@ -41,6 +41,12 @@ const HomePage = () => {
       >
         Form
       </Link>
+      <Link
+        to={"/useeffect"}
+        style={{ color: "white", textAlign: "center", fontSize: "20px" }}
+      >
+        Use Effect
+      </Link>
     </div>
   );
 };
